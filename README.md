@@ -10,6 +10,6 @@ Pull the images from [Dockerhub](https://cloud.docker.com/u/mcgizzle/repository/
 
 `docker pull mcgizzle/stack-arm`
 
-# But why
+## But why
 
 I use these images to run Haskell on a RaspberryPi 4.
