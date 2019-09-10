@@ -6,9 +6,10 @@ The latest version (as far as I am aware) of GHC that is supported on ARM is 8.6
 
 ## Usage
 
-Pull the images from [Dockerhub](https://cloud.docker.com/u/mcgizzle/repository/docker/mcgizzle/stack-arm)
+Pull the images from [Dockerhub](https://cloud.docker.com/u/mcgizzle/repository/docker/mcgizzle/stack-arm).
 
 `docker pull mcgizzle/stack-arm`
+`docker pull mcgizzle/stack-arm-postgres`
 
 ## But why
 
