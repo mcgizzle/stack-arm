@@ -1,5 +1,7 @@
 FROM mcgizzle/stack-arm-postgres
 
+ARG LTS_SLUG=lts-13.3
+
 RUN stack --system-ghc --resolver=$LTS_SLUG --local-bin-path=/usr/local/bin install \
         cabal-install happy alex cpphs gtk2hs-buildtools hscolour && \
     cd $HOME/.stack && \
